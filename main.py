@@ -1,10 +1,11 @@
-from calculator import add, subtract
+from calculator import add, subtract, divide
 from utils import greet
 
 def main():
     greet("User")
     print("Addition:", add(5, 3))
     print("Subtraction:", subtract(5, 3))
+    print("Divide:", divide(5, 3))
 
 if __name__ == "__main__":
     main()
